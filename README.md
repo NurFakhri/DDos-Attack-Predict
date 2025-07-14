@@ -6,17 +6,18 @@ This project aims to detect potential Distributed Denial of Service (DDoS) attac
 
 ## 📂 Project Structure
 
-- `ddos_model.ipynb`: Main notebook containing EDA, preprocessing, training, and evaluation
-- `data/`: All dataset (unprocessed, preprocessed)
-- `images/`: Visuals and results from model
+- `DDoS_Attack_Prediction.ipynb`: Main notebook containing EDA, preprocessing, training, and evaluation
+- `Data/`: All dataset (unprocessed, preprocessed)
 ---
 
 ## 🚀 Models Used
 
 We implemented and compared the following classification models:
 
+1. Machine Learning
 - **Random Forest**  
-- **XGBoost**  
+- **XGBoost**
+2. Deep Learning  
 - **TabNet**
 
 Each model was trained on:
